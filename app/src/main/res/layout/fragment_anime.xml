@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimeFragment"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your details"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:id="@+id/anime_welcome_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anime_welcome_text"
+        android:id="@+id/enter_id_edittext"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:hint="Enter your id"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_id_edittext"
+        android:id="@+id/enter_age_edittext"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:hint="Enter your age"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_age_edittext"
+        android:id="@+id/enter_name_edittext"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:hint="Enter your name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_name_edittext"
+        android:id="@+id/enter_height_edittext"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:hint="Enter your height"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_height_edittext"
+        android:id="@+id/enter_work_edittext"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:hint="Enter your work"/>
+
+
+
+</RelativeLayout>

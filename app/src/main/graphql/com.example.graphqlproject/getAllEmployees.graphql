@@ -1,0 +1,9 @@
+query getAllEmployeeDetails{
+    allEmployees{
+        name
+        id
+        height
+        age
+        work
+    }
+}
